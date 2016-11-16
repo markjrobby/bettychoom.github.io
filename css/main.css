@@ -2246,7 +2246,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #contact {
-	background: #8632e5;
+	background: #FF0077;
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
@@ -2254,7 +2254,7 @@ header .logo a {
 	color: white;
 }
 #contact .section-intro h5 {
-	color: #FF0077;
+	color: white;
 }
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2306,8 +2306,8 @@ header .logo a {
 	letter-spacing: .1rem;
 	padding: 0 2rem;
 	margin: 0;
-	color: #FFFFFF;
-	background: #FF0077;
+	color: #000000;
+	background: #ffffff;
 }
 #contact form .form-field label::after {
 	position: absolute;
