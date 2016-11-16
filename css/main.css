@@ -2266,19 +2266,19 @@ header .logo a {
 }
 
 .contact-form ::-webkit-input-placeholder {
-	color: #000000;
+	color: #595959;
 }
 .contact-form :-moz-placeholder {
-	color: #000000;  /* Firefox 18- */
+	color: #595959;  /* Firefox 18- */
 }
 .contact-form ::-moz-placeholder {
-	color: #000000;  /* Firefox 19+ */
+	color: #595959;  /* Firefox 19+ */
 }
 .contact-form :-ms-input-placeholder {
-	color: #000000;
+	color: #595959;
 }
 .contact-form .placeholder {
-	color: #000000 !important;
+	color: #595959 !important;
 }
 
 #contact form {
