@@ -1352,8 +1352,7 @@ header .logo a {
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
-	color: #cccccc;
-	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	color: #ffffff;
 }
 .intro-content .intro-position span {
 	display: inline-block;
