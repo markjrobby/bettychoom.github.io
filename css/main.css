@@ -2254,10 +2254,10 @@ header .logo a {
 	color: #000000;
 }
 #contact .section-intro h5 {
-	color: #000000;
+	color: #FF0077;
 }
 #contact .section-intro p {
-	color: rgba(255, 255, 255, 0.7);
+	color: #000000;
 }
 
 /* contact form */
@@ -2266,19 +2266,19 @@ header .logo a {
 }
 
 .contact-form ::-webkit-input-placeholder {
-	color: rgba(255, 255, 255, 0.3);
+	color: #000000;
 }
 .contact-form :-moz-placeholder {
-	color: rgba(255, 255, 255, 0.3);  /* Firefox 18- */
+	color: #000000;  /* Firefox 18- */
 }
 .contact-form ::-moz-placeholder {
-	color: rgba(255, 255, 255, 0.3);  /* Firefox 19+ */
+	color: #000000;  /* Firefox 19+ */
 }
 .contact-form :-ms-input-placeholder {
-	color: rgba(255, 255, 255, 0.3);
+	color: #000000;
 }
 .contact-form .placeholder {
-	color: rgba(255, 255, 255, 0.3) !important;
+	color: #000000 !important;
 }
 
 #contact form {
