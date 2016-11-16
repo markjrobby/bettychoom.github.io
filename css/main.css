@@ -2246,7 +2246,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #contact {
-	background: #cccccc;
+	background: #eeeeee;
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
@@ -2394,7 +2394,7 @@ header .logo a {
 #submit-loader .text-loader {
 	display: none;
 	font-family: "poppins-bold", sans-serif;
-	color: #FFFFFF;
+	color: #000000;
 	letter-spacing: .3rem;
 	text-transform: uppercase;
 }
