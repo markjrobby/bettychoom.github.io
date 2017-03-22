@@ -6,7 +6,7 @@ body {
 	font-family: "poppins-semibold", sans-serif;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
-      	font-size: 20px;
+    font-size: 20px;
 	line-height: 1.714;
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -230,6 +230,18 @@ a:active  {
   .modal-header, .modal-body {
       padding: 20px 60px;
   }
+@media only screen and (max-width: 600px) {
+ .modal-header, h4, .close {
+    font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+ .modal-header, h4, .close {
+    font-size: 12px;
+}
+}
+
   .nav-tabs li a {
       color: #777;
   }  
