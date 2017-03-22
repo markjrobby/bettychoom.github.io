@@ -105,7 +105,7 @@ jQuery(function($) {
  
     $.ajax({
         type: "POST",
-        url: "php/form-process.php",
+        url: "dist/php/form-process.php",
         data: "name=" + name + "&email=" + email + "&message=" + message,
         success : function(text){
             if (text == "success"){
@@ -183,7 +183,7 @@ function init()
 	 score3 = 0;
 	
 	/* Link Canvas */
-	stage = new createjs.Stage("demoCanvas");	
+	stage = new createjs.Stage("Canvas");	
 	stage.mouseEventsEnabled = true;
 	stage.enableMouseOver(10);
 	container = new createjs.Container();
@@ -617,7 +617,7 @@ function checkObject(e)
 	       </div>                    
 	       </a>
 	        </div>
-        </div>
+      </div>
 
             <div class="col-sm-4">
 	   <div class="bgrid folio-item">
@@ -635,7 +635,6 @@ function checkObject(e)
 	        </div>
         </div>
       </div>
-    </div>
   
   <!-- Modal -->
   <div class="modal fade modal-fullscreen" id="modal-01" role="dialog">
@@ -809,17 +808,17 @@ Other parts of my jobscope in the beginning included customer service and blogge
       </div>
           </form>
     </div>
-          </div>
+          </div><br>
     
 <body onLoad="init();">              
 <div align="center">
-<canvas id="demoCanvas" width="700" height="400" style="border:1px solid #ccc;">
+<canvas id="Canvas" width="700" height="400" style="border:1px solid #ccc;">
 This browser does not support HTML5.
 </canvas>	
 </div>
             
     </body>
-    </div></div></body>
+    </div></div>
 
 
 
