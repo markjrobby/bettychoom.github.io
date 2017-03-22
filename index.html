@@ -105,7 +105,7 @@ jQuery(function($) {
  
     $.ajax({
         type: "POST",
-        url: "php/form-process.php",
+        url: "dist/php/form-process.php",
         data: "name=" + name + "&email=" + email + "&message=" + message,
         success : function(text){
             if (text == "success"){
@@ -183,7 +183,7 @@ function init()
 	 score3 = 0;
 	
 	/* Link Canvas */
-	stage = new createjs.Stage("demoCanvas");	
+	stage = new createjs.Stage("Canvas");	
 	stage.mouseEventsEnabled = true;
 	stage.enableMouseOver(10);
 	container = new createjs.Container();
@@ -588,6 +588,7 @@ function checkObject(e)
     <h3 class="text-center">Portfolio</h3>
     <p class="hbc">Check out some of my works.</p>  
       <div class="col-sm-4">
+          <div class="clickable">
 	   <div class="bgrid folio-item">
         <img src="dist/images/LL.png" alt="Lennylemons" class="img-responsive" width="100%">
 	   <a data-toggle="modal" data-target="#modal-01" class="overlay">
@@ -602,8 +603,10 @@ function checkObject(e)
 	       </a>
 	        </div>
         </div>
+      </div>
       
             <div class="col-sm-4">
+          <div class="clickable">
 	   <div class="bgrid folio-item">
           <img src="dist/images/BFlogo.png" alt="Basho & Friends" class="img-responsive" width="100%">
 	   <a data-toggle="modal" data-target="#modal-02" class="overlay">
@@ -618,8 +621,10 @@ function checkObject(e)
 	       </a>
 	        </div>
         </div>
+      </div>
 
             <div class="col-sm-4">
+          <div class="clickable">
 	   <div class="bgrid folio-item">
           <img src="dist/images/BClogo.png" alt="Baking Corner" class="img-responsive" width="100%">
 	   <a data-toggle="modal" data-target="#modal-03" class="overlay">
@@ -635,6 +640,7 @@ function checkObject(e)
 	        </div>
         </div>
       </div>
+    </div>
     </div>
   
   <!-- Modal -->
@@ -809,17 +815,17 @@ Other parts of my jobscope in the beginning included customer service and blogge
       </div>
           </form>
     </div>
-          </div>
+          </div><br>
     
 <body onLoad="init();">              
 <div align="center">
-<canvas id="demoCanvas" width="700" height="400" style="border:1px solid #ccc;">
+<canvas id="Canvas" width="700" height="400" style="border:1px solid #ccc;">
 This browser does not support HTML5.
 </canvas>	
 </div>
             
     </body>
-    </div></div></body>
+    </div></div>
 
 
 
