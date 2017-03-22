@@ -296,17 +296,14 @@ a:active  {
     }
 }
   footer {
-      background-color: #fff;
-      border-top-style: solid;
-      border-top-color: #ccc;
-      color: #000;
+      background-color: #d9c647;
       padding: 32px;
   }
   footer a {
-      color: #000;
+      color: #fff;
   }
   footer a:hover {
-      color: #fae979;
+      color: #fff;
       text-decoration: none;
   }  
   .form-control {
@@ -382,15 +379,12 @@ a:active  {
         font-size: 14px;
     }
 }
-    #dropBox{
-        width: 200px;
-        height: 200px;
-        border: 5px dashed gray;
-        background: lightyellow;
-        text-align: center;
-        margin: 20px 0;
-        color: orange;
-    }
-    #dropBox img{
-        margin: 10px;
-    }
+
+@media only screen and (max-width: 750px) {
+#Canvas{
+    display: none !important;
+}
+    
+.clickable {
+    cursor: pointer;
+}
