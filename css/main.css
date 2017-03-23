@@ -1855,7 +1855,7 @@ header .logo a {
 	color: rgba(255, 255, 255, 0.6);
 }
 #portfolio .folio-item:hover .overlay {
-	background: rgba(0, 0, 0, 0.8);
+	background: #cc005f;
 }
 #portfolio .folio-item:hover .folio-item-cell {
 	left: 0;
@@ -1892,7 +1892,7 @@ header .logo a {
  * ------------------------------------------------------------------
  */
 .popup-modal {
-	max-width: 550px;
+	max-width: 100%;
 	background: #FFFFFF;
 	position: relative;
 	margin: 0 auto;
@@ -1903,14 +1903,24 @@ header .logo a {
 .popup-modal img {
 	vertical-align: bottom;
 }
+.popup-modal .header {
+    padding: 10px 10px;
+    background-color: #d9c647;
+}
+.popup-modal .header h4 {
+    color: #fff !important;
+    text-align: center;
+    font-size: 20px;
+	font-family: "poppins-bold", sans-serif;
+}
+.popup-modal .header .popup-modal-dismiss {
+    color: #fff !important;
+    text-align: right !important;
+    font-size: 30px;
+	font-family: "poppins-bold", sans-serif;
+}
 .popup-modal .description-box {
 	padding: 1.8rem 3.6rem 3rem;
-}
-.popup-modal .description-box h4 {
-	font-family: "poppins-bold", sans-serif;
-	font-size: 1.5rem;
-	line-height: 2.4rem;
-	margin-bottom: .6rem;
 }
 .popup-modal .description-box p {
 	font-family: "poppins-regular", sans-serif;
@@ -1963,6 +1973,20 @@ header .logo a {
 		width: auto;
 		margin: 0 20px;
 	}
+}
+.facebook-responsive {
+    overflow:hidden;
+    padding-bottom: 100%;
+    position:relative;
+    height:0;
+}
+
+.facebook-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 /**
@@ -2179,7 +2203,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #stats {
-	background: #ef7912 /*#990047*/;
+	background: #fcc52f /*#990047*/;
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
 	text-align: center;
