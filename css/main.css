@@ -1923,6 +1923,11 @@ header .logo a {
 }
 .popup-modal .description-box {
 	padding: 1.8rem 10rem 3rem;
+    
+}@media only screen and (max-width:600px) {
+	.popup-modal .description-box {
+	padding: 1.8rem 3.6rem 3rem;
+	}
 }
 .popup-modal .description-box p {
 	font-family: "poppins-regular", sans-serif;
